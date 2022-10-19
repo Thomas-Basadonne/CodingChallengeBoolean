@@ -1,0 +1,84 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+
+}
+
+body{
+  background-image: url(MaterialeEsercizioLim/background.jpg);
+  background-size: cover;
+  text-align: center;
+}
+
+.container{
+  background-color: rgba(36,33,33,0.65);
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 5%;
+  width: 1000px;
+  height: 700px;
+  margin: auto;
+}
+
+.logo{
+  width: 200px;
+}
+
+.title{
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  color: #00ff00;
+  margin: 0;
+}
+
+nav{
+  background-color: #00ff00;
+  line-height: 40px;
+}
+
+.testo{
+color: white;
+font-family: 'Poppins', sans-serif;
+text-align: left;
+}
+
+.position:before{
+  content: ' \2192';
+}
+
+.charge1{
+  width: 35%;
+  height: 25px;
+  border-radius: 4px;
+  background-color: orange;
+}
+
+.charge2{
+  width: 55%;
+  height: 25px;
+  border-radius: 4px;
+  background-color: #38B231;
+}
+
+.charge3{
+  width: 15%;
+  height: 25px;
+  border-radius: 4px;
+  background-color: red;
+}
+
+strong{
+  font-size: 20px;
+  line-height: 50px;
+}
+
+.Monopattino{
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-bottom: 0;
+
+}
+.position{
+  padding-top: 0;
+  font-size: 12px;
+}
